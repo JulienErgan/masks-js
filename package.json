@@ -1,8 +1,8 @@
 {
   "name": "masks-js-je",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A NPM package that exports functions to mask values.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "nyc mocha --require babel-core/register",
     "build": "npm run lint && babel ./src -d ./lib",
