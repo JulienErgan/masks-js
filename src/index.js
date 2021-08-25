@@ -21,4 +21,6 @@ function maskUSPhone(phone) {
   return `(${codeArea}) ${prefix}-${sufix}`;
 }
 
-export default maskUSPhone;
+console.log(maskUSPhone("1234567890"));
+
+module.exports = { maskUSPhone };
